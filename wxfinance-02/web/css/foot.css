@@ -1,0 +1,9 @@
+.foot{
+    background-color: #eae9e7;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    padding: 27px;
+    font-family:fangsong ;
+    margin:2px 0;
+}

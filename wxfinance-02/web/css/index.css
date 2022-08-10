@@ -1,0 +1,191 @@
+.banner {
+    background-image: url("../img/banner2_on6y.jpg");
+    background-size: 100% 100%;
+    height: calc(1000 * 480px / 1920);
+}
+
+.middle-index > div:nth-child(1) {
+    margin: 15px 0;
+}
+
+
+/*业务范围*/
+.index-title > div:nth-child(1) {
+    font-size: 21px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*business Line*/
+.index-title > div:nth-child(2) {
+    font-size: 20px;
+    font-weight: lighter;
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+}
+
+/*内容外框*/
+.middle-index > div:nth-child(2) {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.middle-index > div:nth-child(2) > div {
+    height: 290px;
+    width: 300px;
+    margin: 25px 0;
+    background-color: #eae9e7;
+
+}
+
+/*业务二*/
+.middle-index > div:nth-child(2) > div:nth-child(2) {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+
+/*业务五*/
+.middle-index > div:nth-child(2) > div:nth-child(5) {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+
+/*图标*/
+.business > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+/*业务名*/
+.business > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    color: snow;
+    background-color: #f6a226;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/*业务描述*/
+.business > div:nth-child(3) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.aboutus {
+    background-image: url("../img/about_bg.jpg");
+    background-size: 100% 100%;
+    height: calc(1000 * 440px / 1920);
+    display: flex;
+    justify-items: center;
+
+}
+
+.aboutus > div {
+    margin: 17px;
+}
+
+/*公司简介*/
+.aboutus > div:nth-child(2) > div:nth-child(1) {
+    font-size: larger;
+    font-weight: bold;
+    color: snow;
+}
+
+/*公司简介详情*/
+.aboutus > div:nth-child(2) > div:nth-child(2) {
+    font-size: 14px;
+    text-indent: 33px;
+    color: snow;
+
+}
+
+/*查看更多*/
+.aboutus > div:nth-child(2) > div:nth-child(3) {
+    font-size: 14px;
+    color: snow;
+    border: 1px solid white;
+    width: fit-content;
+    float: right;
+    margin-right: 44px;
+    padding: 8px;
+    margin-top: -10px;
+}
+
+.aboutus > div:nth-child(1) > div:nth-child(1) {
+    border: 2px solid yellow;
+    margin: 6px 6px;
+    height: 250px;
+    width: 217px;
+}
+
+.aboutus > div:nth-child(1) > div:nth-child(2) {
+    border: 1px solid #f6a226;
+}
+
+.news-content {
+    display: flex;
+    justify-items: center;
+
+}
+
+.news-content > div:nth-child(1) {
+    padding-top: 23px;
+}
+
+.news-content > div:nth-child(1) > img {
+    height: calc(450 * 500px / 800);
+    width: 450px
+}
+
+.news-content > div:nth-child(2) > div {
+    display: flex;
+    justify-items: center;
+}
+.news-content > div:nth-child(2)>div>div:nth-child(1)>img {
+    height: 91px;
+    width: calc(479*91px/306);
+}
+/*.news-content > div:nth-child(2)>div>div:nth-child(2) {
+
+}
+.news-content > div:nth-child(2)>div>div:nth-child(3) {
+
+}*/
+.news-content>div:nth-child(2){
+    margin-top: 23px;
+    margin-left: 5px;
+}
+.news-font>div:nth-child(1){
+    font-size: larger;
+    font-weight: bold;
+}
+.news-font>div:nth-child(2){
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    color: #c4bfbf;
+}
+
+.partner-content{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+.page {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.page > div {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+.page > div:nth-child(3) {
+    border: none;
+}

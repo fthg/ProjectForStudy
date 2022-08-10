@@ -1,0 +1,37 @@
+
+.banner{
+    background-image: url("../img/banner1_yde0.jpg");
+    background-size: 100% 100%;
+    height: calc(1000*480px/1920);
+}
+form>div:nth-child(1){
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+form>div:nth-child(1)>div{
+    margin-right: 10px;
+}
+form>div:nth-child(1)>div>div:nth-child(2)>input[type=text]{
+    width: 300px;
+}
+#container{
+    overflow: hidden;
+    /*width: 100%;*/
+    height: 500px;
+    margin: 0;
+    font-family: "微软雅黑";
+    width: 600px;
+    border: 1px solid red;
+}
+input[type=submit]{
+    background-color:rgb(230, 145, 55);
+    margin: 30px 0;
+    padding: 15px 50px;
+    color: white;
+    border: none;
+    /*cursor: pointer;*/
+    /*border-radius: 40px 40px;*/
+    /*box-shadow: 1px 1px 5px 1px rebeccapurple;*/
+    width: 297px;
+}
